@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SmartFit Pro – Smartwatch Product Platform</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <a class="logo" href="#home">Smart<span>Fit</span></a>
+    <button class="menu-btn" id="menuBtn" aria-label="Toggle menu">&#9776;</button>
+    <nav class="nav" id="nav">
+      <a href="#home">Home</a>
+      <a href="#features">Features</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#about">About</a>
+      <a href="#why">Why Us</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-text">
+        <p class="tag">New · 2026 Edition</p>
+        <h1>SmartFit Pro Smartwatch</h1>
+        <h3>Track your health. Improve your lifestyle.</h3>
+        <p>SmartFit Pro helps you monitor your health, follow your daily activity and stay connected to your phone. With precise sensors and a battery that lasts a week, it is built to be your everyday companion.</p>
+        <div class="btns">
+          <a class="btn primary" href="#contact">Buy Now</a>
+          <a class="btn ghost" href="#features">Explore Features</a>
+        </div>
+      </div>
+      <div class="hero-art">
+        <svg viewBox="0 0 200 300" class="watch" aria-label="SmartFit Pro watch">
+          <rect x="65" y="0" width="70" height="80" rx="14" fill="#222"/>
+          <rect x="65" y="220" width="70" height="80" rx="14" fill="#222"/>
+          <rect x="35" y="70" width="130" height="160" rx="34" fill="#111" stroke="#00c2a8" stroke-width="4"/>
+          <rect x="46" y="82" width="108" height="136" rx="26" fill="#06141a"/>
+          <text x="100" y="140" text-anchor="middle" font-size="38" fill="#fff" font-family="Arial" font-weight="bold">10:09</text>
+          <text x="100" y="165" text-anchor="middle" font-size="12" fill="#00c2a8" font-family="Arial">♥ 72 bpm</text>
+          <text x="100" y="190" text-anchor="middle" font-size="12" fill="#9ab" font-family="Arial">8,420 steps</text>
+        </svg>
+      </div>
+    </section>
+
+    <section class="section" id="features">
+      <h2 class="title">Features</h2>
+      <div class="grid">
+        <article class="card"><div class="ico">❤</div><h3>Heart Rate Monitor</h3><p>Track your heart rate in real time with advanced optical sensors.</p></article>
+        <article class="card"><div class="ico">👣</div><h3>Fitness Tracking</h3><p>Count steps, calories burned and activity minutes all day.</p></article>
+        <article class="card"><div class="ico">💧</div><h3>Waterproof Design</h3><p>Water resistant for workouts, swimming and outdoor use.</p></article>
+        <article class="card"><div class="ico">🔋</div><h3>Long Battery Life</h3><p>Up to 7 days of battery on a single charge.</p></article>
+        <article class="card"><div class="ico">🔔</div><h3>Smart Notifications</h3><p>Get calls, messages and app alerts right on your wrist.</p></article>
+        <article class="card"><div class="ico">🌙</div><h3>Sleep Monitoring</h3><p>Understand your sleep quality and build better habits.</p></article>
+      </div>
+    </section>
+
+    <section class="section alt" id="gallery">
+      <h2 class="title">Product Gallery</h2>
+      <div class="gallery" id="gallery-grid"></div>
+    </section>
+
+    <section class="section" id="about">
+      <h2 class="title">About SmartFit Pro</h2>
+      <div class="about">
+        <p>SmartFit Pro is made for people who want a healthier, more active life. It pairs an elegant design with dependable technology to give accurate health tracking and smooth connectivity.</p>
+        <p>It records heart rate, daily steps, sleep patterns and workouts, and connects easily to your smartphone to show notifications and important updates. Its light, durable body stays comfortable whether you are working, exercising or relaxing.</p>
+      </div>
+      <div class="stats">
+        <div><b>7 days</b><span>Battery life</span></div>
+        <div><b>24/7</b><span>Health tracking</span></div>
+        <div><b>5 ATM</b><span>Water resistance</span></div>
+        <div><b>100+</b><span>Workout modes</span></div>
+      </div>
+    </section>
+
+    <section class="section alt" id="why">
+      <h2 class="title">Why Choose SmartFit Pro?</h2>
+      <div class="grid">
+        <article class="card"><h3>Affordable &amp; Premium</h3><p>High-end features at a budget-friendly price.</p></article>
+        <article class="card"><h3>Accurate Monitoring</h3><p>Precise heart rate, sleep and fitness data.</p></article>
+        <article class="card"><h3>Stylish Design</h3><p>A sleek look that suits every occasion.</p></article>
+        <article class="card"><h3>Easy Connectivity</h3><p>Pairs with your phone in seconds.</p></article>
+        <article class="card"><h3>Comfortable Wear</h3><p>Soft strap built for all-day comfort.</p></article>
+        <article class="card"><h3>Reliable Support</h3><p>Friendly help whenever you need it.</p></article>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <h2 class="title">Contact Us</h2>
+      <form class="form" id="contactForm">
+        <input type="text" id="name" placeholder="Your name" required>
+        <input type="email" id="email" placeholder="Your email" required>
+        <textarea id="msg" rows="4" placeholder="Your message" required></textarea>
+        <button class="btn primary" type="submit">Send Message</button>
+        <p class="ok" id="ok" hidden>Thank you! Your message has been noted.</p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 SmartFit Pro. All rights reserved.</p>
+    <p>Designed by <b>Y. Sri Sravya Subba Lakshmi</b> (23ME1A42D2) · Ramachandra College of Engineering</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
